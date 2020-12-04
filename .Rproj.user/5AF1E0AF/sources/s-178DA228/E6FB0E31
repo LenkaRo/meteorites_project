@@ -3,7 +3,7 @@
     "path": "~/codeclan_projects/meteorites_project/meteorites.Rmd",
     "project_path": "meteorites.Rmd",
     "type": "r_markdown",
-    "hash": "333975910",
+    "hash": "3649735908",
     "contents": "",
     "dirty": false,
     "created": 1607082994215.0,
@@ -12,15 +12,15 @@
     "properties": {
         "tempName": "Untitled1",
         "chunk_output_type": "inline",
-        "cursorPosition": "3,3",
+        "cursorPosition": "8,70",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1607109944,
+    "lastKnownWriteTime": 1607111764,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1607109944924,
+    "last_content_update": 1607111764761,
     "read_only": false,
     "read_only_alternatives": []
 }

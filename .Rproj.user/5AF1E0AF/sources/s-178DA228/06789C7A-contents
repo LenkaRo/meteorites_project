@@ -1,4 +1,17 @@
-
+-----------------
+  # Read the data into R
+  # Change the names of the variables to follow our naming standards.
+  # Split in column GeoLocation into latitude and longitude, the new latitude and longitude columns should be numeric.
+  # Replace any missing values in latitude and longitude with zeros.
+  # Remove meteorites less than 1000g in weight from the data.
+  # Order the data by the year of discovery.
+  -----------------
+  
+  ----------------- 
+  # Include assertive programming to make sure that:
+  # The data has the variable names we expect (“id”, “name”, “mass (g)”, “fall”, “year”, “GeoLocation”).
+  # Latitude and longitude are valid values. (Latitude between -90 and 90, longitude between -180 and 180).
+  -----------------
   
 library(tidyverse)
 library(janitor)

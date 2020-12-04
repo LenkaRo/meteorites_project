@@ -3,7 +3,7 @@
     "path": "~/codeclan_projects/meteorites_project/cleaning_data.R",
     "project_path": "cleaning_data.R",
     "type": "r_source",
-    "hash": "0",
+    "hash": "1009668342",
     "contents": "",
     "dirty": false,
     "created": 1607082595685.0,
@@ -11,15 +11,15 @@
     "relative_order": 1,
     "properties": {
         "tempName": "Untitled1",
-        "cursorPosition": "2,18",
+        "cursorPosition": "13,19",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1607109914,
+    "lastKnownWriteTime": 1607111762,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1607109914227,
+    "last_content_update": 1607111762996,
     "read_only": false,
     "read_only_alternatives": []
 }

@@ -3,6 +3,11 @@ title: "R Notebook"
 output: html_notebook
 ---
 
+Read the cleaned data into R.
+Find the names and years found for the 10 largest meteorites in the data.
+Find the average mass of meteorites that were recorded falling, vs. those which were just found.
+Find the number of meteorites in each year, for every year since 2000.
+
 ```{r}
 library(tidyverse)
 
