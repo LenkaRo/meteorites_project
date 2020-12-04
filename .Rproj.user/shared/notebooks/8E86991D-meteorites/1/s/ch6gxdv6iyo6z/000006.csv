@@ -1,0 +1,6 @@
+"0","meteorite_landing_clean_data %>%
+  group_by(fall) %>% 
+  summarise(avg_mass_g = mean(mass_g))
+"
+"2","`summarise()` ungrouping output (override with `.groups` argument)
+"
