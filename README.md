@@ -5,7 +5,7 @@ Project contains:
 
   1. R Project (meteorites_project.Rproj)
   
-    To hold following 2 files, Data folder and directory structure
+    To hold following 3 files, Data folder and directory structure
     
 
   2. R script (cleaning_data.R) 
@@ -26,14 +26,20 @@ Project contains:
     Find the average mass of meteorites that were recorded falling, vs. those which were just found.
     Find the number of meteorites in each year, for every year since 2000. 
     
+    
+  4. Shiny App (app.R)
+
+  	 An interactive shiny dashboard.
+  	 Use widgets to filter out meteorites that you would like to see more information about and get their location displayed on a map!
+  	    
   
-  4. Data
+  5. Data
   
     meteorite_landing.csv
     meteorite_landing_clean_data.csv
     
   
-  5. R Notebook in HTML (meteorites.html)
+  6. R Notebook in HTML (meteorites.html)
   
   
-  6. R Notebook in HTML - shorter version with printed findings (meteorites.nb.html)
+  7. R Notebook in HTML - shorter version with printed findings (meteorites.nb.html)

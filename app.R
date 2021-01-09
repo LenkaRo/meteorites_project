@@ -38,7 +38,8 @@ ui <- fluidPage(
       actionButton("update",
                    "Press for more details and location"),
       
-
+      hr(),
+      
       plotOutput("meteorites_histogram")
       
     ),
@@ -54,8 +55,8 @@ ui <- fluidPage(
 
 ## Server
 server <- function(input, output) {
-
-### histogram showing the number of reported meteorites each year    
+  
+  ### histogram showing the number of reported meteorites each year    
   output$meteorites_histogram <- renderPlot({
     meteorites %>% 
       ggplot() +
@@ -67,25 +68,25 @@ server <- function(input, output) {
         title = "\n\n Number of meteorites reported each year"
       )
   })
-
-### setting up the reactive function, to only get the filtered results after pressing action button
+  
+  ### setting up the reactive function, to only get the filtered results after pressing action button
   meteorites_filtered <- eventReactive(input$update, {
     meteorites %>% 
       filter(fall == input$fall_found_button) %>% 
       filter(year == input$year_slider)
   })
   
-### creating an interactive table that gives information about filtered meteorites
-### displays after pressing action button
+  ### creating an interactive table that gives information about filtered meteorites
+  ### displays after pressing action button
   output$table_output <- DT::renderDataTable({
     
     meteorites_filtered() %>% 
       select(-id, -fall, -year) %>% 
       rename("mass (g)" = mass_g)
   })
- 
-### creating an interactive map that displays location of filtered meteorites
-### displays after pressing action button
+  
+  ### creating an interactive map that displays location of filtered meteorites
+  ### displays after pressing action button
   output$meteorites_map <- renderLeaflet({
     
     meteorites_filtered() %>%  
