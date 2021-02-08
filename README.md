@@ -1,6 +1,8 @@
 # meteorites_project
 week_02/day_5
 
+![](https://github.com/LenkaRo/meteorites_project/blob/master/www/meteorites_dashboard.png)
+
 Project contains: 
 
   1. R Project (meteorites_project.Rproj)
